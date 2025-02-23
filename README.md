@@ -13,11 +13,7 @@ A simple movie recommendation system built using **TF-IDF Vectorization** and **
    git clone https://github.com/your-username/movie-recommender.git
    cd movie-recommender
    ```
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
+   
 ## Dataset 📊
 This project uses **tmdb_5000_movies.csv** and **tmdb_5000_credits.csv**, available in the `data/` folder.
 
@@ -36,7 +32,6 @@ movie_recommender/
 │── src/                     # Source code files
 │   ├── model.py             # Recommendation logic
 │   ├── recommend.py         # Streamlit app
-│── requirements.txt         # Dependencies
 │── README.md                # Project documentation
 ```
 
